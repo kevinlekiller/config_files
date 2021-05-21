@@ -1,0 +1,13 @@
+#https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=72070
+#/etc/systemd/system/ethledoff.service 
+[Unit]
+Description=Disables LED's on the raspberry pi 2's ethernet
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/llctl f0 l0 d0
+
+[Install]
+WantedBy=multi-user.target
