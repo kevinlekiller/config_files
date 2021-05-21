@@ -1,0 +1,187 @@
+[Desktop Entry]
+DefaultProfile=
+
+[Favorite Profiles]
+Favorites=
+
+[General]
+Close After Last=false
+Config Revision=10
+Days Meta Infos=30
+Modified Notification=false
+Quick Open List Mode=0
+Quick Open Search Mode=0
+Quickopen List Mode=true
+Recent File List Entry Count=10
+Restore Window Configuration=true
+Save Meta Infos=true
+Show Full Path in Title=false
+Show Menu Bar=true
+Show Status Bar=true
+Show Tab Bar=true
+Startup Session=manual
+
+[KFileDialog Settings]
+Recent Files[$e]=
+Recent URLs[$e]=
+detailViewIconSize=16
+
+[KTextEditor Document]
+Allow End of Line Detection=true
+BOM=false
+Backup Local=false
+Backup Prefix=
+Backup Remote=false
+Backup Suffix=~
+Camel Cursor=true
+Encoding=UTF-8
+End of Line=0
+Indent On Backspace=true
+Indent On Tab=true
+Indent On Text Paste=false
+Indentation Mode=normal
+Indentation Width=4
+Keep Extra Spaces=false
+Line Length Limit=10000
+Newline at End of File=true
+On-The-Fly Spellcheck=false
+Overwrite Mode=false
+PageUp/PageDown Moves Cursor=false
+Remove Spaces=0
+ReplaceTabsDyn=true
+Show Spaces=2
+Show Tabs=true
+Smart Home=true
+Swap Directory=
+Swap File Mode=1
+Swap Sync Interval=15
+Tab Handling=2
+Tab Width=4
+Trailing Marker Size=1
+Word Wrap=false
+Word Wrap Column=80
+
+[KTextEditor Editor]
+Encoding Prober Type=1
+Fallback Encoding=ISO 8859-15
+
+[KTextEditor Renderer]
+Animate Bracket Matching=true
+Auto Color Theme Selection=true
+Color Theme=Breeze Dark
+Font=Hack,10,-1,7,50,0,0,0,0,0
+Schema=Breeze Dark
+Show Indentation Lines=true
+Show Whole Bracket Expression=true
+Word Wrap Marker=false
+
+[KTextEditor View]
+Allow Mark Menu=true
+Auto Brackets=false
+Auto Center Lines=0
+Auto Completion=true
+Auto Completion Preselect First Entry=true
+Backspace Remove Composed Characters=false
+Bookmark Menu Sorting=0
+Bracket Match Preview=false
+Chars To Enclose Selection=
+Default Mark Type=1
+Dynamic Word Wrap=true
+Dynamic Word Wrap Align Indent=80
+Dynamic Word Wrap At Static Marker=false
+Dynamic Word Wrap Indicators=1
+Dynamic Wrap not at word boundaries=false
+Fold First Line=false
+Folding Bar=true
+Folding Preview=true
+Icon Bar=false
+Input Mode=0
+Keyword Completion=true
+Line Modification=true
+Line Numbers=true
+Maximum Search History Size=100
+Mouse Paste At Cursor Position=false
+Persistent Selection=false
+Scroll Bar Marks=false
+Scroll Bar Mini Map All=true
+Scroll Bar Mini Map Width=60
+Scroll Bar MiniMap=true
+Scroll Bar Preview=true
+Scroll Past End=false
+Search/Replace Flags=1036
+Show Line Count=true
+Show Scrollbars=0
+Show Word Count=true
+Smart Copy Cut=false
+Text Drag And Drop=true
+User Sets Of Chars To Enclose Selection=
+Vi Input Mode Steal Keys=false
+Vi Relative Line Numbers=false
+Word Completion=true
+Word Completion Minimal Word Length=3
+Word Completion Remove Tail=true
+
+[KTextEditor::Search]
+Replace History=
+Search History=
+
+[Konsole]
+AutoSyncronize=true
+RemoveExtension=false
+RunPrefix=
+SetEditor=false
+
+[MainWindow]
+DP-1 Height 2160=808
+DP-1 Height 3840x2160=598
+DP-1 Width 3840=1192
+DP-1 Width 3840x2160=1690
+DP-1 Window-Maximized 1920x1080=true
+DP-1 XPosition=0
+DP-1 XPosition 1920x1080=0
+DP-1 XPosition 3840x2160=1220
+DP-1 YPosition=25
+DP-1 YPosition 1920x1080=29
+DP-1 YPosition 3840x2160=1291
+HDMI-0 Height 2160=1178
+HDMI-0 Height 3840x2160=1054
+HDMI-0 Width 3840=2094
+HDMI-0 Width 3840x2160=1190
+HDMI-0 XPosition=1703
+HDMI-0 XPosition 3840x2160=2578
+HDMI-0 YPosition=363
+HDMI-0 YPosition 3840x2160=29
+HDMI-1 Height 2160=1594
+HDMI-1 Width 3840=1654
+HDMI-1 XPosition=1020
+HDMI-1 YPosition=551
+HDMI-A-0 Height 2160=1572
+HDMI-A-0 Height 3840x2160=1062
+HDMI-A-0 Width 3840=1798
+HDMI-A-0 Width 3840x2160=1894
+HDMI-A-0 Window-Maximized 3840x2160=true
+HDMI-A-0 XPosition=1072
+HDMI-A-0 XPosition 3840x2160=568
+HDMI-A-0 YPosition=564
+HDMI-A-0 YPosition 3840x2160=1258
+Height 2160=660
+State=AAAA/wAAAAD9AAAAAAAABTIAAANKAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 3840=1310
+XWAYLAND0 Height 3840x2160=1422
+XWAYLAND0 Width 3840x2160=1577
+XWAYLAND2 Height 3840x2160=1039
+XWAYLAND2 Width 3840x2160=3112
+XWAYLAND2 Window-Maximized 3840x2160=true
+XWAYLAND3 Height 3840x2160=480
+XWAYLAND3 Width 3840x2160=2049
+
+[filetree]
+editShade=33,84,111
+listMode=false
+shadingEnabled=true
+showCloseButton=false
+showFullPathOnRoots=false
+showToolbar=true
+sortRole=0
+viewShade=66,73,74
