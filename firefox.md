@@ -137,7 +137,7 @@ searx.info - *(there is a guide how to add it in this document)*
 - Vault Timeout -> **5 Minutes**
 - Vault Timeout Action -> **Lock**
 - [x] Unlock with PIN - *(and/or biometrics)*
-- Other -> Options -> Clear Clipoboard -> **2 Minutes**
+- Other -> Options -> Clear Clipboard -> **2 Minutes**
 - Other -> Options -> Theme -> **Dark**
 ### Containerise
 - [ ] Match domain only
@@ -160,34 +160,101 @@ searx.info - *(there is a guide how to add it in this document)*
 - [x] Prevent WebRTC from leaking local IP addresses
 - [x] Block CSP reports
 - [x] Uncloak canonical names
-#### Filter Lists
-- Import ->
-- https://gitlab.com/ZeroDot1/CoinBlockerLists/-/raw/master/list_browser_UBO.txt
+#### Filter Lists (Optional)
+##### Built-in
+- [x] uBlock filters
+- [x] uBlock filters - Badware risks
+- [x] uBlock filters - Privacy
+- [x] uBlock filters - Resource Abuse
+- [x] uBlock filters - Unbreak
+##### Ads
+- [x] AdGuard Base
+- [x] EasyList
+##### Privacy
+- [x] AdGuard Tracking Protection
+- [x] EasyPrivacy
+##### Malware domains
+- [x] Online Malicious URL Blacklist
+- [x] Spam404
+##### Annoyances
+- [x] AdGuard Annoyances
+- [x] Fanboy's Annoyance
+- [x] uBlock filters - Annoyances
+##### Multipurpose
+- [x] Peter Lowe's Ad and tracking server list
+##### Custom
+- [x] Import ->
+- https://github.com/bogachenko/fuckfuckadblock/raw/master/fuckfuckadblock.txt
+- https://github.com/DandelionSprout/adfilt/raw/master/I%20Don't%20Want%20to%20Download%20Your%20Browser.txt
 - https://github.com/hoshsadiq/adblock-nocoin-list/raw/master/nocoin.txt
 - https://github.com/llacb47/miscfilters/raw/master/antipaywall.txt
+- https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
+- https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
+- https://gitlab.com/ZeroDot1/CoinBlockerLists/-/raw/master/list_browser_UBO.txt
+- https://www.fanboy.co.nz/fanboy-problematic-sites.txt
+- https://www.i-dont-care-about-cookies.eu/abp/
 - [x] Apply Changes
 ## about:config
-- **beacon.enabled = false** *(Disables sending additional analytics to web servers.)*
+- **app.normandy.api_url = ""** *(Disable shield studies)*
+- **app.normandy.enabled = false**
+- **app.shield.optoutstudies.enabled = false**
+- **beacon.enabled = false** *(Disables sending additional analytics to web servers)*
 - **browser.cache.offline.enable = false** *(Disable offline cache)*
-- **browser.safebrowsing.downloads.remote.enabled = false** *(Do not send information about downloaded files to Google)*
-- **browser.safebrowsing.enabled = false**
+- **browser.crashReports.unsubmittedCheck.autoSubmit = false** *(Disable crash reporting)*
+- **browser.crashReports.unsubmittedCheck.autoSubmit2 = false**
+- **browser.crashReports.unsubmittedCheck.enabled = false**
+- **breakpad.reportURL = ""**
+- **browser.tabs.crashReporting.sendReport = false**
+- **browser.safebrowsing.downloads.remote.enabled = false** *(Disable Google safebrowsing)*
+- **browser.safebrowsing.blockedURIs.enabled = false**
+- **browser.safebrowsing.downloads.enabled = false**
+- **browser.safebrowsing.downloads.remote.enabled = false**
+- **browser.safebrowsing.downloads.remote.url = ""**
+- **browser.safebrowsing.malware.enabled = false**
+- **browser.safebrowsing.phishing.enabled = false**
+- **browser.search.suggest.enabled = false** *(Disable search suggestions)*
 - **browser.send_pings = false** *(Blocks hyperlink ping tracking)*
 - **browser.sessionstore.privacy_level = 2** *(Never store extra session data.)*
 - **browser.urlbar.speculativeConnect.enabled = false** *(Disable preloading of autocomplete URLs)*
+- **browser.newtab.preload = false** *(Disable preload on new tab page)*
 - **browser.urlbar.trimURLs = false** *(Shows the full URL)*
+- **datareporting.healthreport.uploadEnabled = false** *(Disable health report)*
+- **datareporting.policy.dataSubmissionEnabled = false**
 - **dom.event.clipboardevents.enabled = false** *(Masks clipboard events to the website)*
+- **extensions.experiments.enabled = false** *(Disable experiments)*
+- **extensions.getAddons.cache.enabled = false** *(Opt out metadata updates)*
 - **extensions.pocket.enabled = false** *(Disables pocket extension)*
+- **browser.newtabpage.activity-stream.section.highlights.includePocket**
 - **gfx.webrender.all = true** *(Allows Firefox to utilize the GPU for some of the rendering)*
+- **keyword.enabled = false** *(Prevent searching when you mistype a URL)*
+- **browser.fixup.alternate.enabled = false** *(Prevents from trying to access words without TLD's as URLs)*
 - **layers.acceleration.force-enabled = true** *(Force enables hardware acceleration)*
 - **media.navigator.enabled = false** *(Disable microphone/camera status tracking)*
 - **media.ffmpeg.vaapi.enabled = true** *(Enables video acceleration, [see this link for instructions.](https://wiki.archlinux.org/title/Firefox#Hardware_video_acceleration))*
+- **media.ffvpx.enabled = false**
+- **media.rdd-vpx.enabled = false**
+- **media.navigator.mediadatadecoder_vpx_enabled = true**
+- **network.captive-portal-service.enabled = false** *(Disable captive portal - connects to Akamai)*
 - **network.dns.disablePrefetch = true** *(Prefetch loads websites you haven't clicked, so they appear faster if you were to click on them)
 - **network.dns.disablePrefetchFromHTTPS = true**
-- **network.IDN_show_punycode = true** *(Helps to protect against possible character spoofing)*
 - **network.predictor.enabled = false**
 - **network.predictor.enable-prefetch = false**
 - **network.prefetch-next = false**
+- **network.http.speculative-parallel-limit = 0** *(Disable speculative loading)*
+- **network.IDN_show_punycode = true** *(Helps to protect against possible character spoofing)*
+- **toolkit.telemetry.archive.enabled = false** *(Disable telemetry)*
+- **toolkit.telemetry.bhrPing.enabled = false**
+- **toolkit.telemetry.cachedClientID = ""**
+- **toolkit.telemetry.firstShutdownPing.enabled = false**
+- **toolkit.telemetry.newProfilePing.enabled = false**
+- **toolkit.telemetry.reportingpolicy.firstRun = false**
+- **toolkit.telemetry.server = ""**
+- **toolkit.telemetry.shutdownPingSender.enabled = false**
+- **toolkit.telemetry.unified = false**
+- **toolkit.telemetry.updatePing.enabled = false**
 - **webgl.disabled = true** *(Disable WebGL)*
+- **webgl.renderer-string-override = " "**
+- **webgl.vendor-string-override = " "**
 ## SearX
 ### How to add a SearX instance as a Firefox search provider
 - In Firefox, go to about:preferences#search
