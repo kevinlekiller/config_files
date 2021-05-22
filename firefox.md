@@ -293,6 +293,7 @@ searx.info - *(there is a guide how to add it in this document)*
 - **extensions.experiments.enabled = false** *(Disable experiments)*
 - **extensions.getAddons.cache.enabled = false** *(Opt out metadata updates)*
 - **extensions.pocket.enabled = false** *(Disables pocket extension)*
+- **extensions.screenshots.disabled = true** *(Disables the screenshot extension)*
 - **browser.newtabpage.activity-stream.section.highlights.includePocket**
 - **gfx.webrender.all = true** *(Allows Firefox to utilize the GPU for some of the rendering)*
 - **keyword.enabled = false** *(Prevent searching when you mistype a URL)*
@@ -373,4 +374,5 @@ searx.info - *(there is a guide how to add it in this document)*
 https://privacytools.io/browsers/  
 https://privacytools.io/browsers/#about_config  
 https://ffprofile.com/  
-https://wiki.archlinux.org/title/Firefox
+https://wiki.archlinux.org/title/Firefox  
+https://teddit.net/r/firefox/wiki/
