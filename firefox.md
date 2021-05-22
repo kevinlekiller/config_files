@@ -200,8 +200,12 @@ searx.info - *(there is a guide how to add it in this document)*
 - If you use a regional version of amazon, also add it, for example ___*.amazon.co.uk___
 - Alternatively you can use regex, for example: `@https?://.+?\.amazon\.[a-z]{2,}`
 ### Dark Reader
-- Site List -> **Inverted List Only** *(click on it)*
+- Site List -> **Invert listed only** *(click on it)*
+
+![darkreader1](https://github.com/kevinlekiller/config_files/raw/images/darkreader1.png)
 - If you want to make a site dark, click the addon, click the name of the site in the top left.
+
+![darkreader2](https://github.com/kevinlekiller/config_files/raw/images/darkreader2.png)
 ### Firefox Multi-Account Containers
 - Fiefox Accounts Sync -> **Enable Sync** *(enable if you use Firefox Sync)*
 ### LocalCDN
