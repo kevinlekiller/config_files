@@ -12,9 +12,6 @@
 - [ ] When you open a link in a new tab, switch to it immediatly
 - [x] Enable Container Tabs
 ### Language and Appearance
-#### Fonts and Colors
-- Default font -> **Source Sans Pro** - *(pick your prefered font)*
-- Size -> **12**
 #### Zoom
 - Default zoom -> **100%**
 - [ ] Zoom text only
