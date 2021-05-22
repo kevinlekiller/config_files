@@ -136,6 +136,16 @@ searx.info - *(there is a guide how to add it in this document)*
 - [x] Unlock with PIN - *(and/or biometrics)*
 - Other -> Options -> Clear Clipboard -> **2 Minutes**
 - Other -> Options -> Theme -> **Dark**
+### CanvasBlocker
+- Click the extension icon, clcik Settings
+- To the right of ***Presets*** click ***Open***
+- ***Convenient settings*** -> ***Apply***
+- ***Stealth settings*** -> ***Apply***
+- ***reCAPTCHA exception*** -> ***Apply***
+### ClearURLs
+- Click the extension icon, click the gear
+- Disable ***Allow domain blocking*** *(we already use uBlock origin)*
+- Click ***Save & reload addon***
 ### Containerise
 #### Preferences
 - Go to about:addons, click the extension, click Preferences
@@ -164,6 +174,15 @@ searx.info - *(there is a guide how to add it in this document)*
 - Click Advanced, click uBlock, click Copy.
 - Click on the uBlock icon, click the gear, go to ***My Rules***, click on the right side
 - Paste the contents of the clipboard (Control+V), click ***Save***, click ***Commit***
+### Plasma Integration
+- Go to ***about:addons***, click the extension, click preferences
+- Disable ***Add downloaded files to recent documents***
+- Disable ***Save URL a file was downloaded from in the file's attributes***
+- Disable ***Find browser tabs in "Run Command" window***
+- Disable ***Search through browser history***
+### Privacy Redirect
+- Go to ***about:addons***, click the extension, click preferences
+- Change to your liking
 ### uBlock Origin
 #### Settings
 - [x] Hide placeholders of blocked elements
