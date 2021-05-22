@@ -285,7 +285,14 @@ searx.info - *(there is a guide how to add it in this document)*
 #### Enabling more search engines
 - Click the ***Engines*** tab on top
 - Enable or disable the engine you want
+## Wayland
+- Set these environment variables:
+- `GDK_BACKEND=wayland`
+- `MOZ_ENABLE_WAYLAND=1`
+- Launch Firefox, go to `about:support`
+- `Window Protocol` should be set to `wayland` 
 ## Sources
 https://privacytools.io/browsers/  
 https://privacytools.io/browsers/#about_config  
 https://ffprofile.com/
+https://wiki.archlinux.org/title/Firefox
