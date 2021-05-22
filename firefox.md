@@ -235,7 +235,7 @@ searx.info - *(there is a guide how to add it in this document)*
 - **media.rdd-vpx.enabled = false**
 - **media.navigator.mediadatadecoder_vpx_enabled = true**
 - **network.captive-portal-service.enabled = false** *(Disable captive portal - connects to Akamai)*
-- **network.dns.disablePrefetch = true** *(Prefetch loads websites you haven't clicked, so they appear faster if you were to click on them)
+- **network.dns.disablePrefetch = true** *(Prefetch loads websites you haven't clicked, so they appear faster if you were to click on them)*
 - **network.dns.disablePrefetchFromHTTPS = true**
 - **network.predictor.enabled = false**
 - **network.predictor.enable-prefetch = false**
