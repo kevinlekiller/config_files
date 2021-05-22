@@ -10,7 +10,7 @@
 - [ ] Ctrl+Tab cycles through tabs in recently used order
 - [x] Open links in tabs instead of new windows
 - [ ] When you open a link in a new tab, switch to it immediatly
-- [x] Enable Container Tabs
+- [x] Enable Container Tabs *(Install the Containerise extension to get access to this option)*
 ### Language and Appearance
 #### Zoom
 - Default zoom -> **100%**
