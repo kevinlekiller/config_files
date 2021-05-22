@@ -69,7 +69,7 @@ searx.info - *(there is a guide how to add it in this document)*
 - [ ] Delete cookies and site data when Firefox is closed
 #### Logins and Passwords
 - [ ] Ask to save logins and passwords for websites
-- [ ] Show alerts about passwords for breanched websites
+- [ ] Show alerts about passwords for breached websites
 - [ ] Use a Primary Password
 #### History
 - Firefox will **Use custom settings for history**
