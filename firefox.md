@@ -153,7 +153,8 @@ searx.info - *(there is a guide how to add it in this document)*
 - Go to amazon.com
 - Click the containerize icon, click the dropdown that says ***No Container***, select Amazon.com
 - Click the +, change ___www.amazon.com___ to ___*.amazon.com___
-- Click the +, change ___www.amazon.com___ to ___*.primevideo.com___
+- Click the +, add ___*.primevideo.com___
+- Click the save button
 - If you use a regional version of amazon, also add it, for example ___*.amazon.co.uk___
 - If the site you are adding to a container doesn't always use a subdomain, then add both cases, for example:
 - ___*.github.com___ *(matches https://gist.github.com)*
