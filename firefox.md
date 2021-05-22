@@ -156,9 +156,6 @@ searx.info - *(there is a guide how to add it in this document)*
 - Click the +, add ___*.primevideo.com___
 - Click the save button
 - If you use a regional version of amazon, also add it, for example ___*.amazon.co.uk___
-- If the site you are adding to a container doesn't always use a subdomain, then add both cases, for example:
-- ___*.github.com___ *(matches https://gist.github.com)*
-- ___github.com___ *(matches https://github.com)*
 ### Dark Reader
 - Site List -> **Inverted List Only** *(click on it)*
 - If you want to make a site dark, click the addon, click the name of the site in the top left.
