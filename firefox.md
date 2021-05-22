@@ -6,11 +6,15 @@
 - [x]  Restore previous session
 - [ ] Warn you when quitting the browser
 - [ ] Always check if Firefox is your default browser
+
+![firefoxstartup](https://github.com/kevinlekiller/config_files/raw/images/firefoxstartup.png)
 #### Tabs
 - [ ] Ctrl+Tab cycles through tabs in recently used order
 - [x] Open links in tabs instead of new windows
 - [ ] When you open a link in a new tab, switch to it immediatly
 - [x] Enable Container Tabs *(Install the Containerise extension to get access to this option)*
+
+![firefoxtabs](https://github.com/kevinlekiller/config_files/raw/images/firefoxtabs.png)
 ### Language and Appearance
 #### Zoom
 - Default zoom -> **100%**
@@ -36,6 +40,8 @@
 - [x] Control media via keyboard, headset, or virtual interface
 - [ ] Recommend extensions as you browse
 - [ ] Recommend features as you browse
+
+![firefoxbrowsing](https://github.com/kevinlekiller/config_files/raw/images/firefoxbrowsing.png)
 ### Network Settings
 #### Settings
 - [x] Use system proxy settings
@@ -50,6 +56,8 @@
 - [ ] Recommended by Pocket
 - [ ] Highlights
 - [ ] Snippets
+
+![firefoxhomecontent](https://github.com/kevinlekiller/config_files/raw/images/firefoxhomecontent.png)
 ### Search
 #### Search bar
 - [x] Add search bar in toolbar
@@ -57,6 +65,8 @@
 searx.info - *(there is a guide how to add it in this document)*
 #### Search Suggestions
 - [ ] Provide search suggestions
+
+![firefoxsearchsuggestions](https://github.com/kevinlekiller/config_files/raw/images/firefoxsearchsuggestions.png)
 ### Privacy & Security
 #### Enhanced Tracking Protections
 - [x] Custom
@@ -65,24 +75,34 @@ searx.info - *(there is a guide how to add it in this document)*
 - [x] Cryptominers
 - [x] Fingerprinters
 - [x] Only when Firefox is set to block known trackers
+
+![firefoxtrackingprotection](https://github.com/kevinlekiller/config_files/raw/images/firefoxtrackingprotection.png)
 #### Cookies and Site Date
 - [ ] Delete cookies and site data when Firefox is closed
+
+![firefoxcookies](https://github.com/kevinlekiller/config_files/raw/images/firefoxcookies.png)
 #### Logins and Passwords
 - [ ] Ask to save logins and passwords for websites
 - [ ] Show alerts about passwords for breached websites
 - [ ] Use a Primary Password
+
+![firefoxloginpasswords](https://github.com/kevinlekiller/config_files/raw/images/firefoxloginpasswords.png)
 #### History
 - Firefox will **Use custom settings for history**
 - [ ] Always use private browsing mode
 - [x] Remember browsing and download history
 - [ ] Remember search and form history
 - [ ] Clear history when Firefox closes
+
+![firefoxhistory](https://github.com/kevinlekiller/config_files/raw/images/firefoxhistory.png)
 #### Address Bar
 - [x] Browing history
 - [x] Bookmarks
 - [x] Open tabs
 - [ ] Top sites
 - [x] Search engines
+
+![firefoxaddressbar](https://github.com/kevinlekiller/config_files/raw/images/firefoxaddressbar.png)
 ### Permissions
 - [x] Block pop-up windows
 - [x] Warn you when websites try to install add-ons
@@ -98,11 +118,15 @@ searx.info - *(there is a guide how to add it in this document)*
 - Default for all websites -> **Block Audio and Video**
 #### Virtual Reality
 - [x] Block new requests asking to access your virtual reality devices
+
+![firefoxpermissions](https://github.com/kevinlekiller/config_files/raw/images/firefoxpermissions.png)
 ### Firefox Data Collection and use
 - [ ] Allow Firefox to send technical and interation data to mozilla
 - [ ] Allow Firefox to make personalized extension recommendations
 - [ ] Allow Firefox to install and run studies
 - [ ] Allow Firefox to send backlogged crash reports on your behalf
+
+![firefoxdatacollection](https://github.com/kevinlekiller/config_files/raw/images/firefoxdatacollection.png)
 ### Security
 #### Deceptive Content and Dangerous Software Protection
 - [ ] Block dangerous and deceptive content
@@ -112,6 +136,8 @@ searx.info - *(there is a guide how to add it in this document)*
 - [x] Query OCSP responder servers to confirm the current validity of certificates
 #### HTTPS-Only Mode
 - [x] Enable HTTPS-Only Mode in all windows
+
+![firefoxsecurity](https://github.com/kevinlekiller/config_files/raw/images/firefoxsecurity.png)
 ## about:addons
 ### Extensions
 #### Recommended
@@ -138,12 +164,16 @@ searx.info - *(there is a guide how to add it in this document)*
 - [x] Unlock with PIN - *(and/or biometrics)*
 - Other -> Options -> Clear Clipboard -> **2 Minutes**
 - Other -> Options -> Theme -> **Dark**
+
+![bitwarden](https://github.com/kevinlekiller/config_files/raw/images/bitwarden.png)
 ### CanvasBlocker
-- Click the extension icon, clcik Settings
+- Click the extension icon, click Settings
 - To the right of ***Presets*** click ***Open***
 - ***Convenient settings*** -> ***Apply***
 - ***Stealth settings*** -> ***Apply***
 - ***reCAPTCHA exception*** -> ***Apply***
+
+![canvasblocker](https://github.com/kevinlekiller/config_files/raw/images/canvasblocker.png)
 ### ClearURLs
 - Click the extension icon, click the gear
 - Disable ***Allow domain blocking*** *(we already use uBlock origin)*
@@ -174,8 +204,10 @@ searx.info - *(there is a guide how to add it in this document)*
 ### LocalCDN
 - Click the addon icon, click the gear to open the settings.
 - Click Advanced, click uBlock, click Copy.
-- Click on the uBlock icon, click the gear, go to ***My Rules***, click on the right side
+- Click on the uBlock icon on the Firefox toolbar, click the gear, go to ***My Rules***, click on the right side
 - Paste the contents of the clipboard (Control+V), click ***Save***, click ***Commit***
+
+![localcdn](https://github.com/kevinlekiller/config_files/raw/images/localcdn.png)
 ### Plasma Integration
 - Go to ***about:addons***, click the extension, click preferences
 - Disable ***Add downloaded files to recent documents***
@@ -298,21 +330,29 @@ searx.info - *(there is a guide how to add it in this document)*
 - Click ***Add "searx.info"***
 - Go back to about:preferences#search
 - Change ***Default Search Engine*** to ***searx.info***
+
+![addsearx](https://github.com/kevinlekiller/config_files/raw/images/addsearx.png)
 ### Searx Settings
 - Click ***preferences*** in the top right
 #### Dark Theme
 - ***Themes*** -> ***oscar***
 - ***Style*** -> ***Logicodev dark***
+
+![searxpreferences](https://github.com/kevinlekiller/config_files/raw/images/searxpreferences.png)
 #### Enabling more search engines
 - Click the ***Engines*** tab on top
 - Enable or disable the engine you want
+
+![searxengines](https://github.com/kevinlekiller/config_files/raw/images/searxengines.png)
 ## Wayland
 - If you use [Wayland](https://en.wikipedia.org/wiki/Wayland_%28display_server_protocol%29):
 - Set these environment variables:
 - `GDK_BACKEND=wayland`
 - `MOZ_ENABLE_WAYLAND=1`
 - Launch Firefox, go to `about:support`
-- `Window Protocol` should be set to `wayland` 
+- `Window Protocol` should be set to `wayland`
+
+![firefoxwayland](https://github.com/kevinlekiller/config_files/raw/images/firefoxwayland.png)
 ## Sources
 https://privacytools.io/browsers/  
 https://privacytools.io/browsers/#about_config  
