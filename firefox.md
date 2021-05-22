@@ -1,5 +1,8 @@
 # Firefox v88.0.1 Configuration - Linux - 2021-05-21
-
+## Notes
+- These settings/extensions/extension settings are tailored to the author's usage, every user should tailor their settings to their needs.
+- This was created so the author can recreate their current settings from a fresh profile.
+- Ideally you would apply these settings from a new profile, go to ***about:profiles*** to create a new profile. *(creating a new profile perserves your old profile)*
 ## about:preferences
 ### General
 #### Startup
