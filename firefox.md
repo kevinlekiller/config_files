@@ -140,17 +140,34 @@ searx.info - *(there is a guide how to add it in this document)*
 - Other -> Options -> Clear Clipboard -> **2 Minutes**
 - Other -> Options -> Theme -> **Dark**
 ### Containerise
+#### Preferences
+- Go to about:addons, click the extension, click Preferences
 - [ ] Match domain only
 - [ ] Keep old tabs
 - [x] Default container
 - Container name -> **Temp**
-- [x] Until last tab is closed
-- Container preferences -> Temp -> Lifetime -> **Until last tab is closed**
+- [x] Until last tab is closed *(these 2 settings combined will allow sites that don't match a container to go into a temporary container which is deleted when you close tab)*
+#### Adding Containers
+- Go to about:preferences -> General -> Tabs -> Enable Container Tabs -> Settings
+- Add a container, for example Amazon.com
+- Go to amazon.com
+- Click the containerize icon, click the dropdown that says ***No Container***, select Amazon.com
+- Click the +, change ___www.amazon.com___ to ___*.amazon.com___
+- Click the +, change ___www.amazon.com___ to ___*.primevideo.com___
+- If you use a regional version of amazon, also add it, for example ___*.amazon.co.uk___
+- If the site you are adding to a container doesn't always use a subdomain, then add both cases, for example:
+- ___*.github.com___ *(matches https://gist.github.com)*
+- ___github.com___ *(matches https://github.com)*
 ### Dark Reader
 - Site List -> **Inverted List Only** *(click on it)*
 - If you want to make a site dark, click the addon, click the name of the site in the top left.
 ### Firefox Multi-Account Containers
 - Fiefox Accounts Sync -> **Enable Sync** *(enable if you use Firefox Sync)*
+### LocalCDN
+- Click the addon icon, click the gear to open the settings.
+- Click Advanced, click uBlock, click Copy.
+- Click on the uBlock icon, click the gear, go to ***My Rules***, click on the right side
+- Paste the contents of the clipboard (Control+V), click ***Save***, click ***Commit***
 ### uBlock Origin
 #### Settings
 - [x] Hide placeholders of blocked elements
