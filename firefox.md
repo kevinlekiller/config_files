@@ -353,6 +353,19 @@ searx.info - *(there is a guide how to add it in this document)*
 - `Window Protocol` should be set to `wayland`
 
 ![firefoxwayland](https://github.com/kevinlekiller/config_files/raw/images/firefoxwayland.png)
+## Hide the Firefox Title Bar
+- Click the ***Hamburger*** menu (top right)
+- Click ***Customize Toolbar...***
+- Uncheck ***Title Bar*** in the bottom left
+- Click ***Done*** in the bottom right
+## Using compact density
+### Firefox v88 or lower
+- Open the ***Customize Toolbar...*** menu *(see "Hide the Firefox Title Bar" for instructions)*
+- Click ***Density*** in the bottom left
+- Click ***Compact***
+- click ***Done*** in the bottom right
+### Firefox v89 or higher
+- Apply this [userChrome.css](https://gist.github.com/Speedy37/63d37931601123178ac2221533292cdd) using this [guide](https://teddit.net/r/firefox/wiki/userchrome)
 ## Sources
 https://privacytools.io/browsers/  
 https://privacytools.io/browsers/#about_config  
