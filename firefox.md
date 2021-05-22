@@ -129,6 +129,8 @@ searx.info - *(there is a guide how to add it in this document)*
 - [Privacy Redirect](https://addons.mozilla.org/en-US/firefox/addon/privacy-redirect)
 ### Themes
 - Dark **Enable**
+
+![darktheme](https://github.com/kevinlekiller/config_files/raw/images/darktheme.png)
 ## Extension settings
 ### Bitwarden
 - Vault Timeout -> **5 Minutes**
@@ -305,6 +307,7 @@ searx.info - *(there is a guide how to add it in this document)*
 - Click the ***Engines*** tab on top
 - Enable or disable the engine you want
 ## Wayland
+- If you use [Wayland](https://en.wikipedia.org/wiki/Wayland_%28display_server_protocol%29):
 - Set these environment variables:
 - `GDK_BACKEND=wayland`
 - `MOZ_ENABLE_WAYLAND=1`
@@ -313,5 +316,5 @@ searx.info - *(there is a guide how to add it in this document)*
 ## Sources
 https://privacytools.io/browsers/  
 https://privacytools.io/browsers/#about_config  
-https://ffprofile.com/
+https://ffprofile.com/  
 https://wiki.archlinux.org/title/Firefox
