@@ -1,4 +1,4 @@
-# Firefox v88.0.1 Configuration - Linux - 2021-05-21
+# Firefox v89.0.2 Configuration - Linux - 2021-07-15
 ## Notes
 - These settings/extensions/extension settings are tailored to the author's usage, every user should tailor their settings to their needs.
 - This was created so the author can recreate their current settings from a fresh profile.
@@ -63,7 +63,7 @@
 ![firefoxhomecontent](https://github.com/kevinlekiller/config_files/raw/images/firefoxhomecontent.png)
 ### Search
 #### Search bar
-- [x] Add search bar in toolbar
+- [x] Use the address bar for search and navigation
 #### Default Search Engine
 searx.info - *(there is a guide how to add it in this document)*
 #### Search Suggestions
@@ -102,7 +102,7 @@ searx.info - *(there is a guide how to add it in this document)*
 - [x] Browing history
 - [x] Bookmarks
 - [x] Open tabs
-- [ ] Top sites
+- [ ] Shortcuts
 - [x] Search engines
 
 ![firefoxaddressbar](https://github.com/kevinlekiller/config_files/raw/images/firefoxaddressbar.png)
