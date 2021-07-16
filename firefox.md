@@ -373,7 +373,7 @@ searx.info - *(there is a guide how to add it in this document)*
 - Click ***Compact***
 - click ***Done*** in the bottom right
 ### Firefox v89 or higher
-- Apply this [userChrome.css](https://gist.github.com/Speedy37/63d37931601123178ac2221533292cdd) using this [guide](https://teddit.net/r/firefox/wiki/userchrome)
+- See https://github.com/black7375/Firefox-UI-Fix/tree/photon-style https://github.com/black7375/Firefox-UI-Fix
 ## Sources
 https://privacytools.io/browsers/  
 https://privacytools.io/browsers/#about_config  
