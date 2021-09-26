@@ -4,7 +4,7 @@
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
-export PATH="/home/kevin/bin:/home/kevin/.local/bin:${PATH}"
+export PATH="/home/$USER/bin:/home/$USER/.local/bin:${PATH}"
 export EDITOR=/usr/bin/nano
 export VISUAL=/usr/bin/nano
 export MAKEFLAGS="-j14"
