@@ -31,7 +31,7 @@
 #### Log to $HOME:
 `PROTON_LOG=1`
 #### Raise memory limit on 32 bit games:
-`PROTON_FORCE_LARGE_ADDRESS_AWARE`
+`PROTON_FORCE_LARGE_ADDRESS_AWARE=1`
 
 ---
 ### RADV:
